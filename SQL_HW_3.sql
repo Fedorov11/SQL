@@ -1,4 +1,4 @@
--- 1. Вывести всех работников чьи зарплаты есть в базе, вместе с зарплатами.
+-- 1. Вывести всех работников чьи зарплаты есть в базе, вместе с зарплатами..
 select employee_name, monthly_salary from employee_salary
 join employees on employees.id = employee_salary.employee_id 
 join salary on salary.id = employee_salary.salary_id;
